@@ -1,5 +1,4 @@
 
-import math
 from random import randint
 import random
 
@@ -9,6 +8,7 @@ ct_bias = 60
 t_bias = 40
 
 # Classes
+
 
 class Player:
     """
@@ -22,7 +22,7 @@ class Player:
         self.name = name
         self.rating = r
         if r is None:
-            r = randint(0,200)
+            r = randint(0, 200)
         if r < 0:
             self.rating = 0
         elif r > 200:
