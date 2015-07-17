@@ -77,7 +77,7 @@ class Match:
     rounds
     """
 
-    def __init__(self,mID,teamA,teamB,bo=1,maps=None,friendly=False):
+    def __init__(self, mID, teamA, teamB, bo=1, maps=None, friendly=False):
         self.mID = mID
         assert isinstance(teamA, Team)
         self.teamA = teamA
